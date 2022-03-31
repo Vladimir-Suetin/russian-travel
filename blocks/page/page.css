@@ -8,6 +8,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
+  padding-top: 28px;
+  box-sizing: border-box;
 }
 @media screen and (min-width: 1280px) {
   .page {
@@ -19,26 +21,27 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page {
     min-width: 1024px;
-    max-width: 1280px;
+    max-width: 1279px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page {
     min-width: 768px;
-    max-width: 1024px;
+    max-width: 1023px;
   }
 }
 
 @media screen (min-width: 425px) and (max-width: 767px) {
   .page {
     min-width: 425px;
-    max-width: 768px;
+    max-width: 767px;
   }
 }
 
 @media screen (max-width: 424px) {
   .page {
-    max-width: 425px;
+    max-width: 424px;
+    padding-top: 16px;
   }
 }

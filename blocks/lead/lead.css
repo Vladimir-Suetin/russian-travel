@@ -8,31 +8,26 @@
 
 @media screen and (min-width: 1280px) {
   .lead {
-    
+    width: calc(100% - 148px * 2);
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead {
-    width: calc(100% - 92px);
-    min-height: 962px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead {
-    
   }
 }
 
-@media screen (min-width: 425px) and (max-width: 768px) {
+@media screen (min-width: 425px) and (max-width: 767px) {
   .lead {
-    
   }
 }
 
-@media screen (max-width: 425px) {
+@media screen (max-width: 424px) {
   .lead {
-    
   }
 }
