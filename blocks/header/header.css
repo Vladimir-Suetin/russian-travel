@@ -1,33 +1,22 @@
 .header {
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
-  box-sizing: border-box;
-=======
   align-items: flex-end;
   box-sizing: border-box;
   margin: 0 auto;
->>>>>>> lead
 }
 
 @media screen and (min-width: 1280px) {
   .header {
     width: calc(100% - (48px * 2));
     min-height: 52px;
-<<<<<<< HEAD
-    padding: 28px 48px 0;
-=======
     margin-bottom: 56px;
->>>>>>> lead
+    margin-bottom: 56px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .header {
-<<<<<<< HEAD
-    
-=======
->>>>>>> lead
   }
 }
 
