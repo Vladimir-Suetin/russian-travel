@@ -8,10 +8,10 @@
 @media screen and (min-width: 1280px) {
   .photo-grid {
     width: calc(100% - 96px);
-    min-height: 671px;
+    max-width: 1184px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
     gap: 6px;
-    padding-bottom: 92px;
+    margin-bottom: 92px;
   }
 }

@@ -1,5 +1,11 @@
-.place_website {
-  grid-area: place__website;
-  width: 456px;
-  height: 46px;
+.place__website {
+  grid-area: website;
+  align-self: end;
+  justify-self: start;
+}
+
+@media screen and (max-width: 480px) {
+  .place__website {
+
+  }
 }
