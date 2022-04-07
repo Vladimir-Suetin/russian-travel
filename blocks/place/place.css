@@ -1,0 +1,19 @@
+.place {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    width: 100%;
+    min-height: 660px;
+    display: grid;
+/*grid-template-columns: 460px 484px;
+grid-template-rows: 152px 460px;*/
+    gap: 48px 40px;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraph"
+    ;
+  }
+}

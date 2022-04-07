@@ -1,0 +1,12 @@
+.places {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    width: calc(100% - (148px * 2));
+    min-height: 3392px;
+    margin-bottom: 92px;
+  }
+}
