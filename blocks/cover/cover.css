@@ -7,5 +7,6 @@
   .cover {
     width: calc(100% - 48 * 2);
     max-width: 1184px;
+    margin-bottom: 94px;
   }
 }
