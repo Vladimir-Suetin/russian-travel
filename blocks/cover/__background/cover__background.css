@@ -34,6 +34,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__background {
+    height: 100%;
     min-height: 740px;
   }
 }

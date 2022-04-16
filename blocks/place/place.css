@@ -7,9 +7,23 @@
   .place {
     width: 100%;
     display: grid;
-    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+    grid-template-columns: minmax(460px, max-content) minmax(484px, max-content);
     grid-auto-rows: minmax(min-content, max-content);
     gap: 48px 40px;
+    grid-template-areas:
+    'title website'
+    'image paragraph';
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(440px, max-content) minmax(456px, max-content);
+    grid-auto-rows: minmax(min-content, max-content);
+    gap: 48px 32px;
     grid-template-areas:
     'title website'
     'image paragraph';
