@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   color: #aaaaaa;
-  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
 }
 
 @media screen and (min-width: 1280px) {
@@ -11,6 +11,17 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 170%;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__url-heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
     letter-spacing: 2px;
     margin-bottom: 12px;
   }

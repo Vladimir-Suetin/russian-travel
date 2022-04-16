@@ -25,3 +25,13 @@
     line-height: 18px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer__link {
+    margin-right: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
