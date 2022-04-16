@@ -9,6 +9,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
+  transition: opacity 0.5s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 1280px) {
