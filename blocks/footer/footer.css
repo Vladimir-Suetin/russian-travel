@@ -28,5 +28,6 @@
   .footer {
     flex-direction: column;
     justify-content: start;
+    margin-left: 16px;
   }
 }
