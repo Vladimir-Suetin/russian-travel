@@ -39,7 +39,7 @@
   .photo-grid {
     width: calc(100% - 16px * 2);
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-rows: 1fr;
     gap: 12px;
     margin-bottom: 64px;
   }
