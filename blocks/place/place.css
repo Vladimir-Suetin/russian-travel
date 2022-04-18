@@ -11,8 +11,11 @@
     grid-auto-rows: minmax(min-content, max-content);
     gap: 48px 40px;
     grid-template-areas:
-    'title website'
-    'image paragraph';
+      "title website"
+      "image paragraph";
+  }
+
+  .place:not(:last-of-type) {
     margin-bottom: 80px;
   }
 }
@@ -25,8 +28,11 @@
     grid-auto-rows: minmax(min-content, max-content);
     gap: 48px 32px;
     grid-template-areas:
-    'title website'
-    'image paragraph';
+      "title website"
+      "image paragraph";
+  }
+
+  .place:not(:last-of-type) {
     margin-bottom: 80px;
   }
 }
@@ -39,8 +45,11 @@
     grid-auto-rows: minmax(min-content, max-content);
     gap: 48px 28px;
     grid-template-areas:
-    'title website'
-    'image paragraph';
+      "title website"
+      "image paragraph";
+  }
+
+  .place:not(:last-of-type) {
     margin-bottom: 73px;
   }
 }
@@ -51,11 +60,15 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(min-content, max-content);
+    gap: 32px;
     grid-template-areas:
-    'title'
-    'website'
-    'image'
-    'paragraph';
-    margin-bottom: 66px;
+      "title"
+      "website"
+      "image"
+      "paragraph";
+  }
+
+  .place:not(:last-of-type) {
+    margin-bottom: 50px;
   }
 }

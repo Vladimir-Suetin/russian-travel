@@ -23,3 +23,10 @@
     width: calc(100% - 24px * 2);
   }
 }
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    justify-content: start;
+  }
+}
