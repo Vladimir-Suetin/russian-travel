@@ -19,3 +19,9 @@
     margin-bottom: 8px;
   }
 }
+
+@media screen (min-width: 425px) and (max-width: 767px) {
+  .lead__image {
+    margin-bottom: 8px;
+  }
+}
