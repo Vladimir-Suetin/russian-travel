@@ -33,3 +33,14 @@
     line-height: 22px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__subtitle {
+    max-width: 360px;
+    min-height: 66px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
