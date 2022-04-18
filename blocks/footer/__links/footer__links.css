@@ -15,3 +15,12 @@
     margin-bottom: 48px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .footer__links {
+    flex-direction: column;
+    justify-content: start;
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+}
