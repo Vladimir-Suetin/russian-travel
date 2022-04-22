@@ -1,13 +1,8 @@
 .cover {
   box-sizing: border-box;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 1280px) {
-  .cover {
-    width: calc(100% - 48px * 2);
-    margin-bottom: 94px;
-  }
+  width: calc(100% - 48px * 2);
+  margin-bottom: 94px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
