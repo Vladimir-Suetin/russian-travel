@@ -1,8 +1,12 @@
 .footer__link {
-  margin: 0;
+  margin: 0 18px 0 0;
   padding: 0;
   text-decoration: none;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -16,34 +20,10 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 1280px) {
-  .footer__link {
-    margin-right: 18px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-  }
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .footer__link {
-    margin-right: 18px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .footer__link {
-    margin-right: 18px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-  }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
@@ -55,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .footer__link {
     font-style: normal;
     font-weight: 400;

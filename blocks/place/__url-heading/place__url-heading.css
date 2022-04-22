@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .place__url-heading {
     font-style: normal;
     font-weight: 400;
