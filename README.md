@@ -18,8 +18,8 @@
 * Подключение css файлов и сторонних шрифтов через :small_blue_diamond: **@import**
 
 ### Автор
-**Владимир Суетин** :arrow_right: [Ссылка на профиль GitHub](https://github.com/suetin-vladimir)  
-**Ссылка на проект** :arrow_right: [Путешествия по России](https://suetin-vladimir.github.io/russian-travel)
+**Владимир Суетин** :arrow_right: [Ссылка на профиль GitHub](https://github.com/vladimir-suetin)  
+**Ссылка на проект** :arrow_right: [Путешествия по России](https://vladimir-suetin.github.io/russian-travel)
 
 Хочу выразить огромную благодарность компанде Практикума за проделанную работу. За то, как понятно изложен материал, за удобный тренажер, за вебинары с лайв кодом, за код ревью без которого невозможно правильно закрепить полученные знания. 
 
